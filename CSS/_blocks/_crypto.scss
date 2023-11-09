@@ -1,0 +1,91 @@
+.crypto__section {
+    height: 100vh;
+    padding: 5rem 0 2rem 0;
+    background-color: $dark_blue;
+    .crypto__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .crypto__title {
+        width: 40%;
+        color: white;
+        p {
+            margin: 2rem 0;
+        }
+    }
+}
+
+.media__block_image{
+    display: none;
+}
+
+@media (min-width: 0px) and (max-width: 560px) {
+    .crypto__section {
+        height: auto;
+        .crypto__content {
+            flex-direction: column;
+        }
+        .crypto__title {
+            width: 90%;
+            text-align: center;
+            .crypto__buttons {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                a {
+                    width: 45%;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .crypto__image {
+            display: none;
+        }
+        .media__block_image {
+            display: block;
+            width: 90%;
+            margin: 0 auto;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (min-width: 560px) and (max-width: 1024px) {
+    .crypto__section {
+        height: auto;
+        .crypto__content {
+            flex-direction: column;
+        }
+        .crypto__title {
+            width: 90%;
+            text-align: center;
+            .crypto__buttons {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                a {
+                    width: 45%;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .crypto__image {
+            display: none;
+        }
+        .media__block_image {
+            display: block;
+            width: 90%;
+            margin: 0 auto;
+            img {
+                width: 100%;
+            }
+        }
+    }   
+}
