@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 header {
   height: 100vh;
-  background: linear-gradient(to right, #220076, #4E0062);
+  background: linear-gradient(to right, #220076, #4e0062);
 }
 header .navbar .container {
   display: flex;
@@ -35,7 +35,7 @@ header .navbar a {
   transition: all 0.3s ease-in-out;
 }
 header .navbar a:hover {
-  color: #EB5757;
+  color: #eb5757;
 }
 header .navbar a:hover::before {
   width: 100%;
@@ -47,7 +47,7 @@ header .navbar a::before {
   bottom: -0.7072135785vh;
   width: 0%;
   height: 0.2828854314vh;
-  background: #EB5757;
+  background: #eb5757;
   transition: all 0.3s ease-in-out;
 }
 header .navbar__menu {
@@ -85,7 +85,7 @@ header .header__content .header__second_illust img {
   cursor: pointer;
 }
 .menu__group li:hover {
-  background-color: #EB5757;
+  background-color: #eb5757;
 }
 .menu__group li:hover a {
   color: white;
@@ -153,7 +153,7 @@ header .header__content .header__second_illust img {
     cursor: pointer;
   }
   .menu__group li:hover {
-    background-color: #EB5757;
+    background-color: #eb5757;
   }
   .menu__group li:hover a {
     color: white;
@@ -214,7 +214,7 @@ header .header__content .header__second_illust img {
     cursor: pointer;
   }
   .menu__group li:hover {
-    background-color: #EB5757;
+    background-color: #eb5757;
   }
   .menu__group li:hover a {
     color: white;
@@ -495,7 +495,7 @@ header .header__content .header__second_illust img {
 }
 .learn__section {
   height: 100vh;
-  background: #FFF6FB;
+  background: #fff6fb;
   padding: 13.5785007072vh 0 2.2630834512vh 0;
 }
 .learn__section .learn__title {
@@ -546,7 +546,7 @@ header .header__content .header__second_illust img {
     width: 90%;
   }
   .learn__section .learn__card .learn__group {
-    font-size: 1.6973125884vh;
+    font-size: 1.1973125884vh;
   }
 }
 @media (min-width: 560px) and (max-width: 1024px) {
@@ -614,19 +614,22 @@ header .header__content .header__second_illust img {
   right: 0.4557291667vw;
   top: 0.8486562942vh;
 }
-.submit__section .submit_first_illust, .submit__section .submit_second_illust {
+.submit__section .submit_first_illust,
+.submit__section .submit_second_illust {
   width: 20%;
 }
-.submit__section .submit_first_illust img, .submit__section .submit_second_illust img {
+.submit__section .submit_first_illust img,
+.submit__section .submit_second_illust img {
   width: 100%;
 }
 
 @media (min-width: 0px) and (max-width: 560px) {
-  .submit__section .submit_first_illust, .submit__section .submit_second_illust {
+  .submit__section .submit_first_illust,
+  .submit__section .submit_second_illust {
     display: none;
   }
   .submit__section .submit__content .submit__input {
-    width: 90%;
+    width: 100%;
     right: -0.6510416667vw;
   }
   .submit__section .submit__content .submit__input input {
@@ -647,11 +650,12 @@ header .header__content .header__second_illust img {
     height: auto;
     padding: 13.5785007072vh 0;
   }
-  .submit__section .submit_first_illust, .submit__section .submit_second_illust {
+  .submit__section .submit_first_illust,
+  .submit__section .submit_second_illust {
     display: none;
   }
   .submit__section .submit__content .submit__input {
-    width: 90%;
+    width: 100%;
     right: -2.6041666667vw;
   }
   .submit__section .submit__content .submit__input input {
@@ -668,7 +672,7 @@ header .header__content .header__second_illust img {
   }
 }
 .footer__section {
-  background: linear-gradient(227.07deg, #4E0062 0.43%, #220076 99.56%);
+  background: linear-gradient(227.07deg, #4e0062 0.43%, #220076 99.56%);
   color: #fff;
   padding: 6.7892503536vh 0;
 }
@@ -688,7 +692,7 @@ header .header__content .header__second_illust img {
 .footer__section .footer_line {
   width: 100%;
   height: 1px;
-  background-color: #BCBCBC;
+  background-color: #bcbcbc;
   margin: 4.5261669024vh 0;
 }
 .footer__section .copywrite__content {
@@ -712,8 +716,8 @@ header .header__content .header__second_illust img {
 }
 .footer__section .copywrite__content .footer__links i:hover {
   color: white;
-  background: #EB5757;
-  border: 1px solid #EB5757;
+  background: #eb5757;
+  border: 1px solid #eb5757;
 }
 
 @media (min-width: 0px) and (max-width: 560px) {
@@ -770,8 +774,8 @@ a {
 
 button {
   cursor: pointer;
-  padding: 1.414427157vh 1.6276041667vw;
-  border: 1px solid #EB5757;
+  padding: 1.414427157vh 2.6927083333333333vw;
+  border: 1px solid #eb5757;
   border-radius: 3.5360678925vh;
   background-color: transparent;
   font-size: 2.2630834512vh;
@@ -779,17 +783,17 @@ button {
   color: white;
 }
 button:hover {
-  background-color: #EB5757;
+  background-color: #eb5757;
   color: white;
 }
 
 button.fill {
-  background-color: #EB5757;
+  background-color: #eb5757;
   color: white;
 }
 button.fill:hover {
   background-color: transparent;
-  color: #EB5757;
+  color: #eb5757;
 }
 
 input {
@@ -813,7 +817,7 @@ h1 {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #EB5757;
+  background-color: #eb5757;
   border-radius: 1.414427157vh;
 }
 
@@ -822,7 +826,7 @@ h1 {
   cursor: pointer;
 }
 .bx-list-ul:hover {
-  color: #EB5757;
+  color: #eb5757;
 }
 
 .hide {
@@ -835,4 +839,4 @@ h2 {
 
 .gray {
   color: gray;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
