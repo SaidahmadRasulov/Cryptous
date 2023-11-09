@@ -1,0 +1,106 @@
+$orange: #EB5757;
+$indigo: #4E0062;
+$blue: #220076;
+$light_pink:#FFF6FB;
+$dark_blue: rgb(9, 9, 75);
+
+@import './_blocks/header';
+@import './_blocks/price';
+@import './_blocks/platform';
+@import './_blocks/crypto';
+@import './_blocks/learn';
+@import './_blocks/submit';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import './_blocks/footer';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: all .3s ease-in-out;
+    scroll-behavior: smooth;
+}
+
+.container  {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 25px;
+    border: 1px solid $orange;
+    border-radius: 25px;
+    background-color: transparent;
+    font-size: 1rem;
+    transition: all .3s ease-in-out;
+    color: white;
+    &:hover {
+        background-color: #EB5757;
+        color: white;
+    }
+}
+
+button.fill {
+    background-color: $orange;
+    color: white;
+    &:hover {
+        background-color: transparent;
+        color: $orange;
+    }
+}
+
+input {
+    outline: none;
+}
+
+.default__flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+::-webkit-scrollbar {
+    width: .5rem;
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: $orange;
+    border-radius: 10px;
+}
+
+.bx-list-ul {
+    font-size: 1.6rem;
+    cursor: pointer;
+    &:hover {
+        color: $orange;
+    }
+}
+
+.hide {
+    display: block;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.gray {
+    color: gray;
+}

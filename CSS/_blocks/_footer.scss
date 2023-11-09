@@ -1,0 +1,91 @@
+.footer__section {
+    background: linear-gradient(227.07deg, #4E0062 0.43%, #220076 99.56%);
+    color: #fff;
+    padding: 3rem 0;
+
+    .container {
+        .footer__content {
+            display: flex;
+            justify-content: space-between;
+            line-height: 3;
+
+            .footer__item {
+                &:first-child {
+                    color: #fff;
+                }
+
+                color: #b9b7b7;
+                ;
+            }
+        }
+    }
+
+    .footer_line {
+        width: 100%;
+        height: 1px;
+        background-color: #BCBCBC;
+        margin: 2rem 0;
+    }
+
+    .copywrite__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .footer__links {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            i {
+                border: 1px solid gray;
+                padding: .5rem;
+                border-radius: 10px;
+                color: gray;
+                cursor: pointer;
+                &:hover {
+                    color: white;
+                    background: $orange;
+                    border: 1px solid $orange;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 0px) and (max-width: 560px) {
+    .footer__section {
+        .container {
+            .footer__content {
+                padding: 0 1rem;
+                gap: 2rem;
+                flex-wrap: wrap;
+                .footer__group {
+                    width: 45%;
+                }
+            }
+        }
+        .copywrite__content {
+            flex-direction: column-reverse;
+            gap: 2rem;
+        }
+    }
+}
+
+@media (min-width: 560px) and (max-width: 1024px) {
+    .footer__section {
+        .container {
+            .footer__content {
+                padding: 0 1rem;
+                gap: 2rem;
+                flex-wrap: wrap;
+                justify-content: initial;
+                .footer__group {
+                    width: 30%;
+                }
+            }
+        }
+        .copywrite__content {
+            flex-direction: column-reverse;
+            gap: 2rem;
+        }
+    }
+}

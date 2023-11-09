@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptous</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./FavIcon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./FavIcon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./FavIcon/favicon-16x16.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header id="home">
+        <div class="navbar">
+            <div class="container">
+                <div class="navbar__logo">
+                    <img src="./Assets/Logo.png" alt="">
+                    Cryptous
+                </div>
+                <nav class="navbar__nav">
+                    <ul class="nav__group">
+                        <li class="nav__item">
+                            <a href="#home">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#company">Company</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#pricing">Pricing</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#team">Team</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact">Contact</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#blog">Blog</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="navbar_button">
+                    <button>Trade Now</button>
+                </div>
+                <div class="navbar__menu">
+                    <i class="bx bx-list-ul" onclick="ToggleMenu()"></i>
+                    <ul class="menu__group" id="navbar" onclick="ToggleMenu()">
+                        <li class="menu__item">
+                            <a href="#home">Home</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#company">Company</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#pricing">Pricing</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#team">Team</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#contact">Contact</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#blog">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header__content">
+            <div class="header__first_illust">
+                <img src="./Assets/illustration.png" alt="">
+            </div>
+            <div class="container">
+                <div class="default__flex">
+                    <div class="header__content_title">
+                        <h1>Make better businees with Cryptocurrency</h1>
+                        <p>We offers users a fully operational long-term rental platform. It plans to leverages
+                            blockchain technology.</p>
+                        <button class="fill">Get Whitelisted</button>
+                    </div>
+                    <div class="header__second_illust">
+                        <img src="./Assets/illustration (1).png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="price__section" id="company">
+            <div class="container">
+                <div class="price__title">
+                    <h2>Today's Cryptocurrency Prices</h2>
+                </div>
+                <div class="price__content">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th class="media__none"># <i class="bx bxs-up-arrow"></i></th>
+                                <th>Name</th>
+                                <th class="media__none">Price</th>
+                                <th class="media__none">24%</th>
+                                <th class="media__none">7%</th>
+                                <th class="media__none md__media_block">Market Cap <i class='bx bxs-info-circle'></i></th>
+                                <th>Volume(24h)</th>
+                                <th class="media__none">Last 7 days</th>
+                            </tr>
+                        </thead>
+                        <tbody class="tbody">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <section class="platform__section" id="about">
+            <div class="container">
+                <div class="platform__title">
+                    <h2>The most trusted cryptocurrency platform</h2>
+                </div>
+                <div class="platform__content">
+                    <div class="platform__card">
+                        <div class="platform__card_header">
+                            <img src="./Assets/icon.png" alt="">
+                        </div>
+                        <div class="platform__card_body">
+                            <ul class="body__group">
+                                <li class="body__item capital_item">
+                                    Ease of Trading
+                                </li>
+                                <li class="body__item">
+                                    Intuitive interface
+                                </li>
+                                <li class="body__item">
+                                    Instant deposit options
+                                </li>
+                                <li class="body__item">
+                                    Cash out directly to your bank account
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="platform__card">
+                        <div class="platform__card_header">
+                            <img src="./Assets/icon (1).png" alt="">
+                        </div>
+                        <div class="platform__card_body">
+                            <ul class="body__group">
+                                <li class="body__item capital_item">
+                                    Institutional-grade Security
+                                </li>
+                                <li class="body__item">
+                                    98% of assets stored safely offline
+                                </li>
+                                <li class="body__item">
+                                    Highly encrypted personal data
+                                </li>
+                                <li class="body__item">
+                                    Whitelisting and transaction confirmations
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="platform__card">
+                        <div class="platform__card_header">
+                            <img src="./Assets/icon.png" alt="">
+                        </div>
+                        <div class="platform__card_body">
+                            <ul class="body__group">
+                                <li class="body__item capital_item">
+                                    Proven Reliability
+                                </li>
+                                <li class="body__item">
+                                    Exchanging bitcoin since 2011
+                                </li>
+                                <li class="body__item">
+                                    Industry-leading uptime
+                                </li>
+                                <li class="body__item">
+                                    24/7 dedicated support
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="crypto__section" id="pricing">
+            <div class="container">
+                <div class="crypto__content">
+                    <div class="crypto__title">
+                        <h2>Try the future, today. Download Crypto</h2>
+                        <p>Stay connected to the market with our mobile app. Featuring advanced order types and
+                            analytical tools for experienced traders, as well as a simple buy & sell interface for those
+                            just getting started.</p>
+                        <div class="media__block_image">
+                            <img src="./Assets/appMobile.png" alt="">
+                        </div>
+                        <div class="crypto__buttons">
+                            <a href="https://www.apple.com/app-store/" target="_blank">
+                                <img src="./Assets/apstor.png" alt="">
+                            </a>
+                            <a href="https://play.google.com/store/apps?hl=uz&gl=US&pli=1" target="_blank">
+                                <img src="Assets/play.png">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="crypto__image">
+                        <img src="./Assets/app.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="learn__section" id="team">
+            <div class="container">
+                <div class="learn__title">
+                    <h2>Learn to thrive</h2>
+                </div>
+                <div class="learn__content">
+                    <div class="learn__card">
+                        <div class="learn__card_header">
+                            <img src="./Assets/img.png" alt="">
+                        </div>
+                        <div class="learn__card_body">
+                            <p>New Leveraged Pairs Added to Margin Trading on the Crypto.com Exchange</p>
+                            <span class="gray">
+                                We urge everyone adopt good cybersecurity habits, and to have unique passwords on every
+                                site they use...</span>
+                        </div>
+                        <div class="learn__card_footer">
+                            <ul class="learn__group gray">
+                                <li class="learn__item">By: Jennia Peris</li>
+                                <li class="learn__item"> 
+                                    <i class='bx bx-calendar'></i> 
+                                    15/07/2021
+                                </li>
+                                <li class="learn__item"><i class="bx bxs-time"></i> 5 Min to read</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="learn__card">
+                        <div class="learn__card_header">
+                            <img src="./Assets/img (1).png" alt="">
+                        </div>
+                        <div class="learn__card_body">
+                            <p>New Leveraged Pairs Added to Margin Trading on the Crypto.com Exchange</p>
+                            <span class="gray">
+                                We urge everyone adopt good cybersecurity habits, and to have unique passwords on every
+                                site they use...</span>
+                        </div>
+                        <div class="learn__card_footer">
+                            <ul class="learn__group gray">
+                                <li class="learn__item">By: Jennia Peris</li>
+                                <li class="learn__item"> 
+                                    <i class='bx bx-calendar'></i> 
+                                    15/07/2021
+                                </li>
+                                <li class="learn__item"><i class="bx bxs-time"></i> 5 Min to read</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="learn__card">
+                        <div class="learn__card_header">
+                            <img src="./Assets/img (2).png" alt="">
+                        </div>
+                        <div class="learn__card_body">
+                            <p>New Leveraged Pairs Added to Margin Trading on the Crypto.com Exchange</p>
+                            <span class="gray">
+                                We urge everyone adopt good cybersecurity habits, and to have unique passwords on every
+                                site they use...</span>
+                        </div>
+                        <div class="learn__card_footer">
+                            <ul class="learn__group gray">
+                                <li class="learn__item">By: Jennia Peris</li>
+                                <li class="learn__item"> 
+                                    <i class='bx bx-calendar'></i> 
+                                    15/07/2021
+                                </li>
+                                <li class="learn__item"><i class="bx bxs-time"></i> 5 Min to read</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="submit__section" id="contact">
+            <div class="submit_first_illust">
+                <img src="./Assets/shape.png" alt="">
+            </div>
+            <div class="container">
+                <div class="submit__title">
+                    <h2>Never miss a drop</h2>
+                    <h3>Subscribe for the latest news, drops & collectibles</h3>
+                </div>
+                <div class="submit__content">
+                    <div class="submit__input">
+                        <input type="search" placeholder="Enter your email address ">
+                    <button class="fill">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="submit_second_illust">
+                <img src="./Assets/shape (1).png" alt="">
+            </div>
+        </section>
+        <section class="footer__section" id="blog">
+            <div class="container">
+                <div class="footer__content">
+                    <ul class="footer__group">
+                        <li class="footer__item ">
+                            Company
+                        </li>
+                        <li class="footer__item">
+                            About us
+                        </li>
+                        <li class="footer__item">
+                            Terms of use
+                        </li>
+                        <li class="footer__item">
+                            Privacy Policy
+                        </li>
+                        <li class="footer__item">
+                            Disclaimer
+                        </li>
+                    </ul>
+                    <ul class="footer__group">
+                        <li class="footer__item">
+                            Businesses
+                        </li>
+                        <li class="footer__item">
+                            Prime
+                        </li>
+                        <li class="footer__item">
+                           Custody
+                        </li>
+                        <li class="footer__item">
+                            Asset Hub
+                        </li>
+                        <li class="footer__item">
+                            Commerce
+                        </li>
+                    </ul>
+                    <ul class="footer__group">
+                        <li class="footer__item">
+                            Exchange
+                        </li>
+                        <li class="footer__item">
+                            Exchange Home
+                        </li>
+                        <li class="footer__item">
+                           Margin Trading
+                        </li>
+                        <li class="footer__item">
+                            Derivatives Trading
+                        </li>
+                        <li class="footer__item">
+                            Trading Area
+                        </li>
+                    </ul>
+                    <ul class="footer__group">
+                        <li class="footer__item">
+                            Blockchain
+                        </li>
+                        <li class="footer__item">
+                            Chain Explorer
+                        </li>
+                        <li class="footer__item">
+                           The Syndicate
+                        </li>
+                        <li class="footer__item">
+                            Security
+                        </li>
+                        <li class="footer__item">
+                            Cryptous Credit
+                        </li>
+                    </ul>
+                    <ul class="footer__group">
+                        <li class="footer__item">
+                            Resources
+                        </li>
+                        <li class="footer__item">
+                            Prices
+                        </li>
+                        <li class="footer__item">
+                           Site Widgets
+                        </li>
+                        <li class="footer__item">
+                            Tax
+                        </li>
+                        <li class="footer__item">
+                            Blog
+                        </li>
+                        <li class="footer__item">
+                            Research
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer_line"></div>
+                <div class="copywrite__content">
+                    <p class="gray">Copyright 2021, Cryptous</p>
+                    <ul class="footer__links"></ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>
