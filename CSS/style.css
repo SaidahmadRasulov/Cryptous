@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 header {
   height: 100vh;
-  background: linear-gradient(to right, #220076, #4E0062);
+  background: linear-gradient(to right, #220076, #4e0062);
 }
 header .navbar .container {
   display: flex;
@@ -35,7 +35,7 @@ header .navbar a {
   transition: all 0.3s ease-in-out;
 }
 header .navbar a:hover {
-  color: #EB5757;
+  color: #eb5757;
 }
 header .navbar a:hover::before {
   width: 100%;
@@ -47,7 +47,11 @@ header .navbar a::before {
   bottom: -0.7072135785vh;
   width: 0%;
   height: 0.2828854314vh;
+<<<<<<< HEAD
   background: #EB5757;
+=======
+  background: #eb5757;
+>>>>>>> 8f7272e4784bcfea1cbdf8728b3329ac6da63227
   transition: all 0.3s ease-in-out;
 }
 header .navbar__menu {
@@ -85,7 +89,7 @@ header .header__content .header__second_illust img {
   cursor: pointer;
 }
 .menu__group li:hover {
-  background-color: #EB5757;
+  background-color: #eb5757;
 }
 .menu__group li:hover a {
   color: white;
@@ -153,7 +157,11 @@ header .header__content .header__second_illust img {
     cursor: pointer;
   }
   .menu__group li:hover {
+<<<<<<< HEAD
     background-color: #EB5757;
+=======
+    background-color: #eb5757;
+>>>>>>> 8f7272e4784bcfea1cbdf8728b3329ac6da63227
   }
   .menu__group li:hover a {
     color: white;
@@ -214,7 +222,11 @@ header .header__content .header__second_illust img {
     cursor: pointer;
   }
   .menu__group li:hover {
+<<<<<<< HEAD
     background-color: #EB5757;
+=======
+    background-color: #eb5757;
+>>>>>>> 8f7272e4784bcfea1cbdf8728b3329ac6da63227
   }
   .menu__group li:hover a {
     color: white;
@@ -345,7 +357,10 @@ header .header__content .header__second_illust img {
 }
 .platform__section .platform__card {
   line-height: 4.243281471vh;
+<<<<<<< HEAD
   width: 30%;
+=======
+>>>>>>> 8f7272e4784bcfea1cbdf8728b3329ac6da63227
 }
 .platform__section .platform__card .capital_item {
   font-weight: bold;
@@ -355,6 +370,7 @@ header .header__content .header__second_illust img {
   font-size: 2.2630834512vh;
 }
 .platform__section .platform__card .platform__card_header {
+<<<<<<< HEAD
   width: 30%;
   height: 22.43281471vh;
 }
@@ -363,6 +379,12 @@ header .header__content .header__second_illust img {
   height: 50%;
   -o-object-fit: contain;
      object-fit: contain;
+=======
+  width: 35%;
+}
+.platform__section .platform__card .platform__card_header img {
+  width: 100%;
+>>>>>>> 8f7272e4784bcfea1cbdf8728b3329ac6da63227
 }
 
 @media (min-width: 0px) and (max-width: 560px) {
@@ -371,12 +393,17 @@ header .header__content .header__second_illust img {
     text-align: center;
     gap: 4.5261669024vh;
   }
+<<<<<<< HEAD
   .platform__section .platform__content .platform__card {
     width: 90%;
   }
   .platform__section .platform__content .platform__card_header {
     margin: 0 auto;
     height: 28.28854314vh;
+=======
+  .platform__section .platform__content .platform__card_header {
+    margin: 0 auto;
+>>>>>>> 8f7272e4784bcfea1cbdf8728b3329ac6da63227
   }
   .platform__section .platform__title h2 {
     font-size: 2.828854314vh;
@@ -417,6 +444,7 @@ header .header__content .header__second_illust img {
   width: 90%;
   display: flex;
   align-items: center;
+<<<<<<< HEAD
   gap: 4rem;
 }
 .crypto__section .crypto__title .crypto__buttons a {
@@ -428,6 +456,14 @@ header .header__content .header__second_illust img {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+=======
+}
+.crypto__section .crypto__title .crypto__buttons a {
+  width: 45%;
+}
+.crypto__section .crypto__title .crypto__buttons a img {
+  width: 100%;
+>>>>>>> 8f7272e4784bcfea1cbdf8728b3329ac6da63227
 }
 .crypto__section .crypto__image {
   width: 30%;
@@ -511,7 +547,11 @@ header .header__content .header__second_illust img {
 }
 .learn__section {
   height: 100vh;
+<<<<<<< HEAD
   background: #FFF6FB;
+=======
+  background: #fff6fb;
+>>>>>>> 8f7272e4784bcfea1cbdf8728b3329ac6da63227
   padding: 13.5785007072vh 0 2.2630834512vh 0;
 }
 .learn__section .learn__title {
@@ -548,7 +588,10 @@ header .header__content .header__second_illust img {
   align-items: center;
   justify-content: space-between;
   font-size: 1.6973125884vh;
+<<<<<<< HEAD
   gap: 2rem;
+=======
+>>>>>>> 8f7272e4784bcfea1cbdf8728b3329ac6da63227
 }
 
 @media (min-width: 0px) and (max-width: 560px) {
@@ -563,10 +606,14 @@ header .header__content .header__second_illust img {
     width: 90%;
   }
   .learn__section .learn__card .learn__group {
+<<<<<<< HEAD
     font-size: 1.2973125884vh;
     display: flex;
     align-items: center;
     gap: 0.5rem;
+=======
+    font-size: 1.1973125884vh;
+>>>>>>> 8f7272e4784bcfea1cbdf8728b3329ac6da63227
   }
 }
 @media (min-width: 560px) and (max-width: 1024px) {
@@ -634,21 +681,36 @@ header .header__content .header__second_illust img {
   position: absolute;
   right: 0.4557291667vw;
   top: 0.8486562942vh;
+<<<<<<< HEAD
   z-index: 99 !important;
 }
 .submit__section .submit_first_illust, .submit__section .submit_second_illust {
   width: 20%;
 }
 .submit__section .submit_first_illust img, .submit__section .submit_second_illust img {
+=======
+}
+.submit__section .submit_first_illust,
+.submit__section .submit_second_illust {
+  width: 20%;
+}
+.submit__section .submit_first_illust img,
+.submit__section .submit_second_illust img {
+>>>>>>> 8f7272e4784bcfea1cbdf8728b3329ac6da63227
   width: 100%;
 }
 
 @media (min-width: 0px) and (max-width: 560px) {
-  .submit__section .submit_first_illust, .submit__section .submit_second_illust {
+  .submit__section .submit_first_illust,
+  .submit__section .submit_second_illust {
     display: none;
   }
   .submit__section .submit__content .submit__input {
+<<<<<<< HEAD
     width: 90%;
+=======
+    width: 100%;
+>>>>>>> 8f7272e4784bcfea1cbdf8728b3329ac6da63227
     right: -0.6510416667vw;
   }
   .submit__section .submit__content .submit__input input {
@@ -669,11 +731,16 @@ header .header__content .header__second_illust img {
     height: auto;
     padding: 13.5785007072vh 0;
   }
-  .submit__section .submit_first_illust, .submit__section .submit_second_illust {
+  .submit__section .submit_first_illust,
+  .submit__section .submit_second_illust {
     display: none;
   }
   .submit__section .submit__content .submit__input {
+<<<<<<< HEAD
     width: 90%;
+=======
+    width: 100%;
+>>>>>>> 8f7272e4784bcfea1cbdf8728b3329ac6da63227
     right: -2.6041666667vw;
   }
   .submit__section .submit__content .submit__input input {
@@ -690,7 +757,7 @@ header .header__content .header__second_illust img {
   }
 }
 .footer__section {
-  background: linear-gradient(227.07deg, #4E0062 0.43%, #220076 99.56%);
+  background: linear-gradient(227.07deg, #4e0062 0.43%, #220076 99.56%);
   color: #fff;
   padding: 6.7892503536vh 0;
 }
@@ -710,7 +777,11 @@ header .header__content .header__second_illust img {
 .footer__section .footer_line {
   width: 100%;
   height: 1px;
+<<<<<<< HEAD
   background-color: #BCBCBC;
+=======
+  background-color: #bcbcbc;
+>>>>>>> 8f7272e4784bcfea1cbdf8728b3329ac6da63227
   margin: 4.5261669024vh 0;
 }
 .footer__section .copywrite__content {
@@ -734,8 +805,8 @@ header .header__content .header__second_illust img {
 }
 .footer__section .copywrite__content .footer__links i:hover {
   color: white;
-  background: #EB5757;
-  border: 1px solid #EB5757;
+  background: #eb5757;
+  border: 1px solid #eb5757;
 }
 
 @media (min-width: 0px) and (max-width: 560px) {
@@ -792,8 +863,13 @@ a {
 
 button {
   cursor: pointer;
+<<<<<<< HEAD
   padding: 1.414427157vh 1.6276041667vw;
   border: 1px solid #EB5757;
+=======
+  padding: 1.414427157vh 2.6927083333333333vw;
+  border: 1px solid #eb5757;
+>>>>>>> 8f7272e4784bcfea1cbdf8728b3329ac6da63227
   border-radius: 3.5360678925vh;
   background-color: transparent;
   font-size: 2.2630834512vh;
@@ -801,17 +877,17 @@ button {
   color: white;
 }
 button:hover {
-  background-color: #EB5757;
+  background-color: #eb5757;
   color: white;
 }
 
 button.fill {
-  background-color: #EB5757;
+  background-color: #eb5757;
   color: white;
 }
 button.fill:hover {
   background-color: transparent;
-  color: #EB5757;
+  color: #eb5757;
 }
 
 input {
@@ -835,7 +911,11 @@ h1 {
 }
 
 ::-webkit-scrollbar-thumb {
+<<<<<<< HEAD
   background-color: #EB5757;
+=======
+  background-color: #eb5757;
+>>>>>>> 8f7272e4784bcfea1cbdf8728b3329ac6da63227
   border-radius: 1.414427157vh;
 }
 
@@ -844,7 +924,7 @@ h1 {
   cursor: pointer;
 }
 .bx-list-ul:hover {
-  color: #EB5757;
+  color: #eb5757;
 }
 
 .hide {
@@ -857,4 +937,4 @@ h2 {
 
 .gray {
   color: gray;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
