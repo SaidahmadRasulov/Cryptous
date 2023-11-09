@@ -134,8 +134,8 @@ function Wrapp() {
                 <td class='block'>
                 ${item.vol}
                 </td>
-                <td class='media__none'>
-                    <img src='${item.statimg}' />
+                <td class='media__none stat__box'>
+                    <img src='${item.statimg}' class='stat__img' />
                 </td>
             </tr>
         `
